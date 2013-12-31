@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -27,10 +30,10 @@
 	</head>
 <body>
 	<div>
-		<form action="authenticate.php" method="post">
+		<form action="auth.php" method="post">
 			<fieldset>
 
-			<legend>Enter Login Details- Try username=admin & password=admin</legend>
+			<legend>Enter Login Details Try username=admin & password=admin</legend>
 				<input type="text" name="u" placeholder="Username" pattern="[a-z]{1,20}"/>
 				<input type="password" name="p" placeholder="Password"/>
 				<input type="submit" value="Login">
